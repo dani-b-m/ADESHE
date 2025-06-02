@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Afro Luxe</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      color: #3a2f2f;
+      background: #fff8f0;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      border-bottom: 1px solid #d3bfa7;
+      background: #faf3e0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      margin: 0;
+      color: #6d3c1f;
+    }
+
+    nav a {
+      margin-left: 30px;
+      text-decoration: none;
+      color: #6d3c1f;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: url('https://images.unsplash.com/photo-1629187419931-d63c06dcefc2') center/cover no-repeat;
+      height: 90vh;
+      text-align: center;
+      color: #fff;
+      padding: 20px;
+    }
+
+    .hero h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 4px #000;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    .btn {
+      background: #f26e50;
+      color: white;
+      padding: 12px 30px;
+      border: none;
+      font-size: 14px;
+      cursor: pointer;
+      text-transform: uppercase;
+      border-radius: 4px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #d55638;
+    }
+
+    .section {
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .products {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .product-card {
+      width: 280px;
+      border: 2px solid #ebd3b4;
+      background: #fffdf9;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: left;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 10px;
+      border-radius: 4px;
+    }
+
+    .product-card h3 {
+      font-size: 16px;
+      margin: 5px 0;
+      color: #4c2e2e;
+    }
+
+    .product-card p {
+      font-size: 14px;
+      margin: 0 0 10px;
+      color: #7a5e45;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #fce9d8;
+      font-size: 14px;
+      color: #5c3d2e;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Afro Luxe</h1>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Afrocentric Elegance</h2>
+    <p>Bold prints. Fierce fits. Handmade for you.</p>
+    <button class="btn">Shop Now</button>
+  </section>
+
+  <section class="section" id="shop">
+    <h2 style="color:#6d3c1f">New Arrivals</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1618354691319-3e50b4b9a4f2" alt="Afro Dress" />
+        <h3>Bold Ankara Maxi</h3>
+        <p>$75</p>
+        <button class="btn">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1629748303113-bdfd038f71cf" alt="Kente Set" />
+        <h3>Royal Kente Set</h3>
+        <p>$85</p>
+        <button class="btn">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1629187698208-1e1351b9b6e3" alt="Wrap Dress" />
+        <h3>Sunlit Wrap Dress</h3>
+        <p>$65</p>
+        <button class="btn">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Afro Luxe. Celebrating Black beauty through fashion.
+  </footer>
+</body>
+</html>
