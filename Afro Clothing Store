@@ -3,17 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ADESHE</title>
+  <title>Afro Luxe</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap">
   <style>
     body {
       margin: 0;
       font-family: 'Open Sans', sans-serif;
-      color: #0a0a0a;
-      background: #2c4a2e;
-      backround-image:url('https://www.transparenttextures.com:patterns:greenfibres.png')
-      backround-repeat: repeat;
-    
+      color: #3a2f2f;
+      background: #fff8f0;
     }
 
     header {
@@ -22,7 +19,7 @@
       align-items: center;
       padding: 20px 40px;
       border-bottom: 1px solid #d3bfa7;
-      background-image: url(blackgreenpattern.png);
+      background: #faf3e0;
       position: sticky;
       top: 0;
       z-index: 1000;
@@ -84,6 +81,7 @@
     .btn:hover {
       background: #d55638;
     }
+
     .section {
       padding: 60px 40px;
       text-align: center;
@@ -130,7 +128,7 @@
     footer {
       text-align: center;
       padding: 30px;
-      background-image: url('blackgreenpattern.png');
+      background: #fce9d8;
       font-size: 14px;
       color: #5c3d2e;
     }
@@ -138,7 +136,7 @@
 </head>
 <body>
   <header>
-    <h1>ADESHE</h1>
+    <h1>Afro Luxe</h1>
     <nav>
       <a href="#shop">Shop</a>
       <a href="#about">About</a>
@@ -177,7 +175,7 @@
   </section>
 
   <footer>
-    &copy; 2025 ADESHE. Celebrating Black beauty through fashion.
+    &copy; 2025 Afro Luxe. Celebrating Black beauty through fashion.
   </footer>
 </body>
 </html>
